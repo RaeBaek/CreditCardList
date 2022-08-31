@@ -8,8 +8,11 @@ target 'CreditCardList' do
   use_frameworks!
 
   # Pods for CreditCardList
-  pod 'Kingfisher'
-  pod 'lottie-ios'
   pod 'Firebase/Database'
+  pod 'Kingfisher', '6.3.1'
+  pod 'lottie-ios', '3.2.3'
+
+  pod 'Firebase/Firestore'
+  pod 'FirebaseFirestoreSwift'
 
 end
